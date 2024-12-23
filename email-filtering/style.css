@@ -2845,6 +2845,28 @@ z-index: -2;
 	display: inline-block; 
   }
 
+.ef-hero{
+	padding: 3rem 0;
+	font-family: Space Grotesk ;
+}
+.ef-content h1{
+	font-family: Space Grotesk ;
+	font-size: 3.4rem;
+}
+.ef-content h1 + p{
+	font-size: 1.3rem;
+}
+.ef-content p + a {
+	font-size: 1.3rem;
+	font-family: Space Grotesk ;
+	/* font-weight: 600; */
+	text-decoration: underline;
+}
+.ef-content p + a:hover{
+	color: #f38e0b;
+}
+
+
 /* card */
 
 .ch-content p{
@@ -2855,49 +2877,39 @@ z-index: -2;
   font-family: Space Grotesk ;
   font-size: 3.4rem;
 }
-  
+.card-heading h4{
+	font-family: Space Grotesk ;
+	color: #3f3f3f;
+	font-size: 2.5rem;
+}
 
   .card {
 	background: #fff;
 	border-radius: 10px;	
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);	
 	overflow: hidden;
-	position: relative;
-	height: 100%;
+	position: relative;	
+	text-align: center;
+	padding: 30px 20px;
+	min-height: fit-content;
+	/* height: 30rem; */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	border-bottom: 5px solid #f38e0b;
+  }
+.card-content{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-  }
+	align-items: center;
+}
 
-  .card .card-header {
-	position: absolute;
-	left: 3%;
-	top: 15px;
-	background-color: #42fdfd;
-	color: #050505;
-	text-transform: uppercase;
-	font-size: 15px;	
-	font-weight: 500;
-	font-family: Space Grotesk;
-	padding: 8px 16px;		
-	border-radius:5px;	
-	z-index: 2;
-  }
-
-  .card img {
-	width: 100%;
-	height: 200px;
-	object-fit: cover;	
-	opacity: 0.7;
-	transition: opacity 0.3s ease-in-out;
-  }
-  .card:hover img{
-	opacity: 0.9;
-  }
-
-  .card-content {	
-	padding: 18px;	
-	height: 50%;
+.card-content .card-icon{
+	height: 60%;
+}
+  .card-content img{
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
   }
   .card-content h3 {
 	margin: 10px 0; 
@@ -2913,10 +2925,11 @@ z-index: -2;
   }
 
   .card-content p {
-	font-size: 16px;
+	font-size: 18px;
 	color: #686868;
-	margin-bottom: 10px;
+	margin-top: 20px;
 	font-family: Space Grotesk;
+	width: 95;
   }
 
   .tag {

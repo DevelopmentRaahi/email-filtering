@@ -778,11 +778,14 @@ footer,.footer-section{
 # input-hero Section
 --------------------------------------------------------------*/
 #claud-hero{
-  padding: 2rem 0;
-  /* background: rgb(12,11,110); */
-  /* background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%); */
-  background: linear-gradient(163deg, rgba(33,37,41,1) 0%, rgb(42, 104, 220) 22%, rgba(36,77,112,1) 59%, rgb(20, 29, 59) 87%);
-  color: #ffffff;
+  padding: 2rem 0;    
+ /* background: 
+ linear-gradient(163deg,
+   rgb(151, 117, 206) 10%,
+   rgb(42, 104, 220) 22%,
+   rgba(36,77,112,1) 59%,
+   rgb(140, 92, 218) 87%); */
+
   
 }
 
