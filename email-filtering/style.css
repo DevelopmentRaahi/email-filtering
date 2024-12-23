@@ -2848,7 +2848,7 @@ z-index: -2;
 .ef-hero{
 	padding: 5rem 0;
 	font-family: Space Grotesk ;
-	background: linear-gradient(to right, #e4e3d6, #82b1ee);
+	background: linear-gradient(to right, #fffab4, #bf7dd3);
 }
 .ef-content h1{
 	font-family: Space Grotesk ;
@@ -2877,7 +2877,7 @@ z-index: -2;
 
 /* card */
 .card-full{
-	background-color: #e9e2bab0;
+	background-color: #f2f2f259;
 	padding-bottom: 20px ;
 }
 
