@@ -2855,9 +2855,13 @@ z-index: -2;
 	font-size: 3.4rem;
 }
 .ef-content h1 + p{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
+	width: 80%;
 }
 .ef-content p + a {
+
+	display: inline-block;
+	margin-top: 1rem;
 	font-size: 1.3rem;
 	font-family: Space Grotesk ;
 	/* font-weight: 600; */
@@ -2866,9 +2870,16 @@ z-index: -2;
 .ef-content p + a:hover{
 	color: #f38e0b;
 }
+.ef-image img{
+	width: 100%;
+}
 
 
 /* card */
+.card-full{
+	background-color: #e9e2bab0;
+	padding-bottom: 20px ;
+}
 
 .ch-content p{
   font-family: Space Grotesk ;
@@ -2878,10 +2889,11 @@ z-index: -2;
   font-family: Space Grotesk ;
   font-size: 3.4rem;
 }
-.card-heading h4{
+.card-heading div > h4{
 	font-family: Space Grotesk ;
 	color: #3f3f3f;
 	font-size: 2.5rem;
+	padding: 2.4rem 0 ;
 }
 
   .card {
