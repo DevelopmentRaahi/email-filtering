@@ -2893,12 +2893,12 @@ z-index: -2;
   font-family: Space Grotesk ;
   font-size: 3.4rem;
 }
-.card-heading div > h4{
+.card-heading  h4{
 	font-family: Space Grotesk ;
 	color: #3f3f3f;
 	font-size: 2.5rem;
-	/* padding: 2.4rem 0 ; */
-	margin-bottom: 1.5rem;
+	padding: 2.4rem 0 ;
+	/* margin-bottom: 1.5rem; */
 }
 
   .card {
