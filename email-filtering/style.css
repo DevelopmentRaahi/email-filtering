@@ -2848,15 +2848,19 @@ z-index: -2;
 .ef-hero{
 	padding: 5rem 0;
 	font-family: Space Grotesk ;
-	background: linear-gradient(to right, #fffab4, #bf7dd3);
+	/* background: linear-gradient(to right, #fffab4, #bf7dd3); */
+	background-size: cover;
+	background-color: #acacac1f;
+	
 }
 .ef-content h1{
 	font-family: Space Grotesk ;
 	font-size: 3.4rem;
+	width: 80%;
 }
 .ef-content h1 + p{
-	font-size: 1.5rem;
-	width: 80%;
+	font-size: 1.3rem;
+	width: 84%;
 }
 .ef-content p + a {
 
@@ -2878,7 +2882,7 @@ z-index: -2;
 /* card */
 .card-full{
 	background-color: #f2f2f259;
-	padding-bottom: 20px ;
+	padding: 2.4rem  0;
 }
 
 .ch-content p{
@@ -2893,7 +2897,8 @@ z-index: -2;
 	font-family: Space Grotesk ;
 	color: #3f3f3f;
 	font-size: 2.5rem;
-	padding: 2.4rem 0 ;
+	/* padding: 2.4rem 0 ; */
+	margin-bottom: 1.5rem;
 }
 
   .card {
@@ -2935,6 +2940,7 @@ z-index: -2;
 	/* margin-bottom: 10px; */
 	font-size: 17px;
 	color: #3d3c3c;
+	/* background-color: red; */
   }
 
   .card-content p {
