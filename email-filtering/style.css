@@ -2881,8 +2881,11 @@ z-index: -2;
 
 /* card */
 .card-full{
+	/* background-color: #f2f2f259; */
+	padding: 5rem  0;
+}
+.card-full2{
 	background-color: #f2f2f259;
-	padding: 2.4rem  0;
 }
 
 .ch-content p{
@@ -2893,13 +2896,66 @@ z-index: -2;
   font-family: Space Grotesk ;
   font-size: 3.4rem;
 }
-.card-heading  h4{
+.card-heading{
+	font-family: Space Grotesk ;
+}
+.card-heading h4{
 	font-family: Space Grotesk ;
 	color: #3f3f3f;
 	font-size: 2.5rem;
-	padding: 2.4rem 0 ;
+	padding: 2rem 0 ;
 	/* margin-bottom: 1.5rem; */
 }
+.card-heading h4 + p{	
+	font-size: 1.4rem;
+	color: #6b6b6b;
+	width: 85%;
+	line-height: 2.4rem;
+}
+.card-heading h5{	
+	font-size: 2.1rem;
+	font-family: Space Grotesk ;
+	position: relative;
+	margin: 1.4rem 0; 
+}
+
+.card-heading  ul{
+	margin-bottom: 2rem;
+}
+.card-heading  ul li{
+	font-size: 1.3rem;
+	line-height: 2.4rem;
+	color: #585858;
+	display: flex;
+	gap: 8px;
+}
+.card-heading  ul li i{
+	color: #04940b;
+	font-size: 1.4rem;
+	display: inline-block;
+}
+.card-heading a.ef-btns{
+	display: inline-block;	
+	font-size: 1.3rem;
+	/* text-transform: uppercase; */
+	font-family: Space Grotesk ;
+	padding: 0.7rem 1.4rem;
+	background-color: #0971d3;
+	color: #fff;
+	border-radius: 4px;	
+	transition:all 0.3s linear;
+	text-align: center;
+}
+.card-heading  a.ef-btns:hover{
+	background-color: #3472ac;
+	box-shadow: 1px 1px 8px #35353538;
+}
+.card-heading-2{
+	text-align: right;
+	direction: rtl;
+}
+
+
 
   .card {
 	background: #fff;
