@@ -2911,6 +2911,7 @@ z-index: -2;
 	color: #6b6b6b;
 	width: 85%;
 	line-height: 2.4rem;
+	text-align: justify;
 }
 .card-heading h5{	
 	font-size: 2.1rem;
@@ -2951,11 +2952,9 @@ z-index: -2;
 	box-shadow: 1px 1px 8px #35353538;
 }
 .card-heading-2{
-	text-align: right;
+	/* text-align: right; */
 	direction: rtl;
 }
-
-
 
   .card {
 	background: #fff;
