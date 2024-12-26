@@ -3187,6 +3187,7 @@ z-index: -2;
 		font-size: 4.5rem;
 	}
 	.ef-content h1+ p{
+		width: 98%;
 		font-size: 1.6rem;
 	}
 	.ef-content h1 + p +a{
@@ -3194,10 +3195,21 @@ z-index: -2;
 	}
 	.ef-image img{
 		margin-top: 3rem;
-		width: 80%;
+		width: 90%;
+	}
+	.card-heading ul{	
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
 	}
 }
 @media screen and (max-width:768px) {
+	html{
+		font-size: 14px;
+	}
+	.card-heading h4 + p{
+		width: 95%;
+		text-align: left;
+	}
 	.table-header li{
 		font-size: 1.2rem;
 	}
@@ -3207,6 +3219,9 @@ z-index: -2;
 	.card-heading  ul{	
 	grid-template-columns: repeat(1, 1fr);
 	gap: 5px;
+	}
+	.ef-content h1{
+		font-size: 3.5rem;
 	}
 	
 }
@@ -3218,5 +3233,8 @@ z-index: -2;
 	.ch-content h1{
 		font-size: 32px;
 		line-height: 45px;
+	}
+	.card-full{
+		padding: 1rem 0.2rem 0.2rem 0.2rem;
 	}
 }
