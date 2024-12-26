@@ -3000,6 +3000,12 @@ z-index: -2;
   .card-full2 .cf2 .card{
 	min-height:25rem ;
 }
+.cf2 .card i{
+	color: #f66c03;
+}
+.cf2 .card:hover i{
+	color: #d57b35;
+}
   .card-content h3 {
 	margin: 10px 0; 
 	font-size: 1.8rem;
