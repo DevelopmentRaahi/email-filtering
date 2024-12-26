@@ -2875,7 +2875,7 @@ z-index: -2;
 	color: #f38e0b;
 }
 .ef-image img{
-	width: 100%;
+	width: 70%;
 }
 
 
@@ -2960,7 +2960,7 @@ z-index: -2;
 	box-shadow: 1px 1px 8px #35353538;
 }
 .card-heading-2{
-	/* text-align: right; */
+	text-align:initial;
 	/* direction: rtl; */
 }
 
