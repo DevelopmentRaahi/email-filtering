@@ -2950,14 +2950,14 @@ z-index: -2;
 	/* text-transform: uppercase; */
 	font-family: Space Grotesk ;
 	padding: 0.7rem 1.4rem;
-	background-color: #0971d3;
+	background-color:#49B89A;
 	color: #fff;
 	border-radius: 4px;	
 	transition:all 0.3s linear;
 	text-align: center;
 }
 .card-heading  a.ef-btns:hover{
-	background-color: #3472ac;
+	background-color: #39a789;
 	box-shadow: 1px 1px 8px #35353538;
 }
 .card-heading-2{
