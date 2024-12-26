@@ -3160,7 +3160,24 @@ z-index: -2;
 	color: #358643;
 	align-self: center;
 }
-
+@media screen and (max-width:900px){
+.ef-content h1,.ef-content p{
+		width: 100%;
+	}
+	.ef-content h1{
+		font-size: 4.5rem;
+	}
+	.ef-content h1+ p{
+		font-size: 1.6rem;
+	}
+	.ef-content h1 + p +a{
+		font-size: 2rem;
+	}
+	.ef-image img{
+		margin-top: 3rem;
+		width: 80%;
+	}
+}
 @media screen and (max-width:768px) {
 	.table-header li{
 		font-size: 1.2rem;
@@ -3168,6 +3185,7 @@ z-index: -2;
 	.table-header li span{
 		font-size: 1rem;
 	}
+	
 }
 
 @media screen and (max-width: 740px) {
