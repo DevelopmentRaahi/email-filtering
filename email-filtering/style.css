@@ -2875,7 +2875,7 @@ z-index: -2;
 	color: #f38e0b;
 }
 .ef-image img{
-	width: 70%;
+	width: 80%;
 }
 
 
@@ -2994,6 +2994,9 @@ z-index: -2;
 	height: 50px;
 	object-fit: cover;
   }
+  .card-content i{
+	font-size: 3.5rem;
+  }
   .card-full2 .cf2 .card{
 	min-height:25rem ;
 }
@@ -3070,9 +3073,15 @@ z-index: -2;
 	transform: translateX(-50%);
  } 
 .cf-content .card{
-	min-height: 25rem;
+	height: 100%;
+	min-height: 27rem;
 }
-  
+.card-full .card-content h3{
+	font-size: 1.6rem;
+}
+.card-full .card-content p{
+	font-size: 1.3rem;
+}
 
   .card-footer_1 a.btn-secondary {
 	background-color: #1476df;	
