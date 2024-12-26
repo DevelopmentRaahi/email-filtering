@@ -2915,6 +2915,7 @@ z-index: -2;
 	line-height: 2.4rem;
 	text-align: justify;
 }
+
 .card-heading .card-content h4{
 	font-size: 2.5rem;
 }
@@ -2922,6 +2923,10 @@ z-index: -2;
 	margin: 0 auto;
 	text-align: center;
 }
+ .ea-content h4 + p{
+	text-align: left;
+	width: 90%;
+ }
 .card-heading h5{	
 	font-size: 2.1rem;
 	font-family: Space Grotesk ;
@@ -2959,6 +2964,25 @@ z-index: -2;
 .card-heading  a.ef-btns:hover{
 	background-color: #39a789;
 	box-shadow: 1px 1px 8px #35353538;
+}
+.card-heading a.ef-btns.ef-btns2{
+	display: none;
+}
+@media (max-width: 900px) {
+	.card-heading a.ef-btns.ef-btns1{
+		display: none;
+	}
+	.card-heading a.ef-btns.ef-btns2{
+		display: inline-block;
+	}
+}
+@media (max-width: 600px) {
+	.card-heading a.ef-btns.ef-btns1{
+		display: none;
+	}
+	.ef-btns2{
+		display: inline-block;
+	}
 }
 .card-heading-2{
 	text-align:initial;
