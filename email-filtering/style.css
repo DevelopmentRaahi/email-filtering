@@ -2906,12 +2906,20 @@ z-index: -2;
 	padding: 2rem 0 ;
 	/* margin-bottom: 1.5rem; */
 }
-.card-heading h4 + p{	
+.card-heading h4 + p{
+	
 	font-size: 1.4rem;
 	color: #6b6b6b;
 	width: 85%;
 	line-height: 2.4rem;
 	text-align: justify;
+}
+.card-heading .card-content h4{
+	font-size: 2.5rem;
+}
+ .card-content h4 + p{
+	margin: 0 auto;
+	text-align: center;
 }
 .card-heading h5{	
 	font-size: 2.1rem;
@@ -2953,7 +2961,7 @@ z-index: -2;
 }
 .card-heading-2{
 	/* text-align: right; */
-	direction: rtl;
+	/* direction: rtl; */
 }
 
   .card {
@@ -2965,6 +2973,7 @@ z-index: -2;
 	text-align: center;
 	padding: 30px 20px;
 	min-height: fit-content;
+	height: 25rem;	
 	/* height: 30rem; */
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 	border-bottom: 5px solid #f38e0b;
@@ -3041,6 +3050,25 @@ z-index: -2;
 	flex: 1 1 auto;
 		
   }
+ 
+  .cf-header *{
+	font-family: Space Grotesk;	
+  }
+.cf-header h2{
+	font-size: 2.4rem;
+	margin-bottom: 1.5rem;
+}
+ .cf-header h2 + P{
+	font-size: 1.4rem;
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+ } 
+.cf-content .card{
+	min-height: 25rem;
+}
+  
 
   .card-footer_1 a.btn-secondary {
 	background-color: #1476df;	
