@@ -2932,6 +2932,12 @@ z-index: -2;
 	font-family: Space Grotesk ;
 	position: relative;
 	margin: 1.4rem 0; 
+	/* text-align: center; */
+}
+.card-items{
+	display: grid;
+	justify-content: center;
+	align-items: center;		
 }
 
 .card-heading  ul{
@@ -2990,7 +2996,8 @@ z-index: -2;
 }
 .card-heading  ul{
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	/* grid-template-columns: repeat(2, 1fr); */
+	justify-content: center;
 	gap: 1rem;
 }
 .card {
