@@ -1,6 +1,24 @@
 let mybutton = document.getElementById("btn-back-to-top");
 let socialIcons = document.querySelector(".whatsap_button");
 
+// var uls = document.querySelector(".navmenu li:nth-child(5) ul");
+var uls = document.querySelector(".navmenu li:nth-child(5) ul");
+function additem() {
+  if (uls) {
+    let li = document.createElement("li");
+    let a = document.createElement("a");
+    a.setAttribute("href", "https://domgys.in/careers.html");
+    a.textContent = "Careers New page";
+    li.appendChild(a);
+    uls.appendChild(li);
+  }   
+}
+uls && additem();
+
+
+
+// uls_a.addEventListener("click", additem);
+
 window.onscroll = function () {
   scrollFunction();
 };
