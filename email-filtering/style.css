@@ -2899,21 +2899,29 @@ z-index: -2;
 }
 .card-heading{
 	font-family: Space Grotesk ;
+	text-align: center;
 }
+
 .card-heading h4{
 	font-family: Space Grotesk ;
 	color: #3f3f3f;
 	font-size: 2.5rem;
 	padding: 2rem 0 ;
+	text-align: center;
 	/* margin-bottom: 1.5rem; */
 } 
 .card-heading h4 + img + p{
-	
+	/* text-align: center; */
 	font-size: 1.5rem;
 	color: #525252;
 	width: 90%;
 	line-height: 2.5rem;
 	text-align: justify;
+}
+.card-heading img{
+	width: 98%;
+	margin-bottom: 2rem;
+	border-radius: 10px;
 }
 
 .card-heading .card-content h4{
@@ -2927,26 +2935,65 @@ z-index: -2;
 	text-align: left;
 	width: 90%;
  }
+
 .card-heading h5{	
 	font-size: 2.1rem;
 	font-family: Space Grotesk ;
 	position: relative;
 	margin: 1.4rem 0; 
-	/* text-align: center; */
+	text-align: center;
 }
 
-
-.card-heading img{
-	width: 90%;
-	margin-bottom: 2rem;
-	border-radius: 10px;
-}
 .card-items h5{
-	margin-top: 5rem;
+	height: 70px;
+	margin-top: 3rem;
+	/* text-align: center; */
+	opacity: 0;
+}
+.card-items ul li{
+	/* display: flex; */
+	justify-content: center;
+	font-size: 1.5rem;
+
+}
+.card-items.active h5{
+	opacity: 1;
+	font-size: 3rem;
+}
+.card-items.active h5::before{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 90px;
+	position: absolute;
+	top: 20%;
+	transform: translateY(50%);
+	left: -60px;
+	background-color: #575857;
+}
+.card-items.active h5::after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 90px;
+	position: absolute;
+	top: 20%;
+	transform: translateY(50%);
+	right: -60px;
+	background-color: #575857;
+}
+.card-items ul + div{
+	margin-top: 3.5rem;
 }
 
-.card-heading  ul{
-	margin-bottom: 2rem;
+.ch-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-heading  ul{	
+	margin-bottom: 1rem;
 }
 
 .card-heading  ul li{
