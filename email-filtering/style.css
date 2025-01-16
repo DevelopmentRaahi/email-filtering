@@ -2882,7 +2882,7 @@ z-index: -2;
 /* card */
 .card-full{
 	/* background-color: #f2f2f259; */
-	padding: 5rem  0;
+	padding: 2rem  0 2rem 0;
 }
 .card-full2{
 	background-color: #f2f2f259;
