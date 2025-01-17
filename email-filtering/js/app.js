@@ -20,7 +20,9 @@ function scrollFunction() {
   }
 }
 // When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
+if (mybutton) {
+  mybutton.addEventListener("click", backToTop);
+}
 
 function backToTop() {
   document.body.scrollTop = 0;
@@ -30,23 +32,58 @@ function backToTop() {
 // window.addEventListener('scroll', function() {
 //   var navbar = document.getElementById('navbg');
 //   if (window.scrollY > 50) {
-//     // navbar.classList.add('bg-change_now'); 
-//     navbar.style.backgroundColor = "#fff"; 
+//     // navbar.classList.add('bg-change_now');
+//     navbar.style.backgroundColor = "#fff";
 //   }
 // });
 
 /*=============== SHOW MENU ===============*/
 
-
-
-
 /**
 
 */
 
-(function() {
+(function () {
   ("use strict");
 
+  var dropdown = document.querySelector(".navmenu li ul");
+  function additem() {
+    if (dropdown) {
+      dropdown.innerHTML = `    
+              <li><a href="https://domgys.in/register-a-domain.html">Register A
+                  Domain </a>
+              </li>
+              <li><a href="https://domgys.in/shared-hosting.html">CPanel
+                  shared Hosting </a>
+              </li>
+              <li><a href="https://domgys.in/window-shared-hosting.html">Plesh
+                  Shared Hosting
+                </a>
+              </li>
+              <li><a href="https://domgys.in/wordpress-hosting.html">
+                  Wordpress
+                  Hosting</a>
+              </li>
+              <li><a href="https://domgys.in/business-hosting.html">
+                  Business hoting Sevice
+                  </a>
+              </li>
+              <li>
+                <a href="https://domgys.in/transfer-your-domain.html">Transfer
+                  Your Domain </a>
+              </li>
+              <li>
+                <a href="https://domgys.in/domain-pricing.php">Check
+                  Domain Pricing</a>
+              </li>
+              <li><a href="https://domgys.in/reseller-hosting.html"> Shared
+                  cloud Linux
+                  Hosting</a>
+              </li>
+    `;
+    }
+  }
+  dropdown && additem();
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
@@ -153,10 +190,13 @@ function backToTop() {
 
     new Swiper(".mySwiper", swiperConfig);
   }
-  initializeSwiper();
-  window.addEventListener("resize", function () {
+  // swiper check
+  if (document.querySelector(".mySwiper")) {
     initializeSwiper();
-  });
+    window.addEventListener("resize", function () {
+      initializeSwiper();
+    });
+  }
 })();
 
 

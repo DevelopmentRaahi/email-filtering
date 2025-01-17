@@ -47,14 +47,14 @@ body {
 	margin:0px;
 	padding:0;
 	font-size:14px;
-	font-family: 'Barlow Semi Condensed', sans-serif !important;
-	
+	font-family: 'Barlow Semi Condensed', sans-serif ;	
 }
+
 ul {
-	margin:0px;
+	margin:0;
 	padding:0;
 }
-ul li {
+ul  {
 	list-style:none;
 }
 * {
