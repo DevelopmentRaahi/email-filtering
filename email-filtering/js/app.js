@@ -1,50 +1,36 @@
-let mybutton = document.getElementById("btn-back-to-top");
-let socialIcons = document.querySelector(".whatsap_button");
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 10 ||
-    document.documentElement.scrollTop > 10
-  ) {
-    socialIcons.style.display = "block";
-    mybutton.style.display = "block";
-  
-  } else {
-    mybutton.style.display = "none";
-    socialIcons.style.display = "none";
-    
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-if (mybutton) {
-  mybutton.addEventListener("click", backToTop);
-}
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// window.addEventListener('scroll', function() {
-//   var navbar = document.getElementById('navbg');
-//   if (window.scrollY > 50) {
-//     // navbar.classList.add('bg-change_now');
-//     navbar.style.backgroundColor = "#fff";
-//   }
-// });
-
-/*=============== SHOW MENU ===============*/
-
-/**
-
-*/
-
 (function () {
   ("use strict");
+
+  let mybutton = document.getElementById("btn-back-to-top");
+  let socialIcons = document.querySelector(".whatsap_button");
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 10 ||
+      document.documentElement.scrollTop > 10
+    ) {
+      socialIcons.style.display = "block";
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+      socialIcons.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  if (mybutton) {
+    mybutton.addEventListener("click", backToTop);
+  }
+
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  // dropdown update
 
   var dropdown = document.querySelector(".navmenu li ul");
   function additem() {
@@ -198,6 +184,3 @@ function backToTop() {
     });
   }
 })();
-
-
-
