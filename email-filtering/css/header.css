@@ -127,6 +127,11 @@ h6 {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-btn), transparent 15%);
 }
+.header .btn-getstarted:active{
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-btn), transparent 15%);
+  transform: scale(0.95);
+}
 
 .header .btn-getstarted::after {
   content: '';
